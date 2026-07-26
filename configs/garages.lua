@@ -24,13 +24,13 @@ return {
     -- shows in the list + detail view, instead of the plain coloured car icon.
     -- When AllowImageToggle is on this is just the starting value each player can
     -- override; when it's off this value is forced for everyone.
-    ShowVehicleImages = true,
+    ShowVehicleImages = false,
 
     -- Let players switch photos <-> icons from a button in the Garages app
     -- header. Each player's choice is remembered on their own device and
     -- survives relogs / restarts. Set false to hide the button and force
     -- ShowVehicleImages for everyone.
-    AllowImageToggle = true,
+    AllowImageToggle = false,
 
     -- Where the photos come from. `{model}` is replaced with the lowercased
     -- spawn name. Defaults to the official FiveM image set (covers base + DLC

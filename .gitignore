@@ -13,3 +13,7 @@ web/.realmap-src/
 # Local brainstorming/design specs, not shipped in source
 docs/superpowers/
 
+
+# API keys and other secrets — not committed
+configs/server/apikeys.lua
+
