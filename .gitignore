@@ -17,3 +17,9 @@ docs/superpowers/
 # API keys and other secrets — not committed
 configs/server/apikeys.lua
 
+
+# Local-only Lua test harness for the lb-phone importer (not shipped).
+tests/
+
+# Local-only migration test helper (never shipped).
+server/devswap.lua
